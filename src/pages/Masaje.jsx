@@ -37,7 +37,7 @@ export const Masaje = () => {
                                 <div className="card-body">
                                     <h5 className="card-title">Masaje Lomi Lomi</h5>
                                     <p className="card-text">Durante un masaje Lomi-Lomi o masaje hawaiano , se amasa todo el cuerpo y uno se siente casi majestuoso: los movimientos fluidos de la cabeza a los pies y el uso del cuerpo por parte del masajista garantizan una agradable relajación.</p>
-                                    <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
+                                   
                                 </div>
                             </div>
                         </div>
@@ -46,8 +46,8 @@ export const Masaje = () => {
                                 <img src="..." className="card-img-top" alt="..." />
                                 <div className="card-body">
                                     <h5 className="card-title">Masaje Thailandes</h5>
-                                    <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                    <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
+                                    <p className="card-text">El masaje thai reúne las técnicas de 3 disciplinas de tratamiento tradicional: Amasamiento de los músculos. Manipulación del esqueleto o quiropráctica (osteopatía). Digitopuntura, presionando sobre ciertos puntos de acupuntura o líneas energéticas.</p>
+                                    
                                 </div>
                             </div>
                         </div>
