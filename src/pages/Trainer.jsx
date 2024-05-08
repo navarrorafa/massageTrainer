@@ -39,7 +39,7 @@ export const Trainer = () => {
 
          
         <div className="text-center my-4">
-      <a href="https://wa.me/seunumerodetelefono" target="_blank" rel="noopener noreferrer" className="btn btn-success btn-lg">
+      <a href="https://wa.me/34687262643" target="_blank" rel="noopener noreferrer" className="btn btn-success btn-lg">
         <i className="bi bi-whatsapp me-2"></i> Contáctanos por WhatsApp
       </a>
     </div>
@@ -65,11 +65,11 @@ export const Trainer = () => {
 
          
         <div className="text-center my-4">
-      <a href="https://wa.me/seunumerodetelefono" target="_blank" rel="noopener noreferrer" className="btn btn-success btn-lg">
+      <a href="https://wa.me/34687262643" target="_blank" rel="noopener noreferrer" className="btn btn-success btn-lg">
         <i className="bi bi-whatsapp me-2"></i> Contáctanos por WhatsApp
       </a>
     </div>
-    
+
       </section>
     </div>
   );

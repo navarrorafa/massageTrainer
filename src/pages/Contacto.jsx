@@ -14,17 +14,17 @@ export const Contacto = () => {
           <div className="col-md-6">
             <div className="text-center">
               <div className="mb-3">
-                <a href="mailto:info@example.com" className="text-decoration-none text-dark d-block mb-2 fs-4">
-                  <i className="bi bi-envelope-fill fs-1"></i> Correo Electrónico
+                <a href="mailto:sergioyrigoyen@gmail.com" className="text-decoration-none text-dark d-block mb-2 fs-4">
+                  <i className="bi bi-envelope-fill fs-1"></i> sergioyrigoyen@gmail.com
                 </a>
-                <a href="https://www.instagram.com/ejemplo" target="_blank" rel="noopener noreferrer" className="text-decoration-none text-dark d-block mb-2 fs-4">
-                  <i className="bi bi-instagram fs-1"></i> Instagram
+                <a href="https://www.instagram.com/massage_trainer_ibiza" target="_blank" rel="noopener noreferrer" className="text-decoration-none text-dark d-block mb-2 fs-4">
+                  <i className="bi bi-instagram fs-1"></i> massage_trainer_ibiza
                 </a>
-                <a href="https://www.tiktok.com/@ejemplo" target="_blank" rel="noopener noreferrer" className="text-decoration-none text-dark d-block mb-2 fs-4">
-                  <i className="bi bi-tiktok fs-1"></i> TikTok
+                <a href="https://www.tiktok.com/@massage_trainer_ibiza" target="_blank" rel="noopener noreferrer" className="text-decoration-none text-dark d-block mb-2 fs-4">
+                  <i className="bi bi-tiktok fs-1"></i> massage_trainer_ibiza
                 </a>
-                <a href="https://wa.me/123456789" target="_blank" rel="noopener noreferrer" className="text-decoration-none text-dark d-block fs-4">
-                  <i className="bi bi-whatsapp fs-1"></i> WhatsApp
+                <a href="https://wa.me/34687262643" target="_blank" rel="noopener noreferrer" className="text-decoration-none text-dark d-block fs-4">
+                  <i className="bi bi-whatsapp fs-1"></i> +34 687 26 26 43
                 </a>
               </div>
             </div>
