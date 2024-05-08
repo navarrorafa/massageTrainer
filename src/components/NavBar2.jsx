@@ -12,7 +12,6 @@ export const NavBar2 = () => {
       <NavLink exact to="/" className="nav-link">Home</NavLink>
       <NavLink to="/masaje" className="nav-link">Masaje</NavLink>
       <NavLink to="/trainer" className="nav-link">Trainer</NavLink>
-      <NavLink to="/tarifas" className="nav-link">Tarifas</NavLink>
       <NavLink to="/contacto" className="nav-link">Contacto</NavLink>
     </Menu>
   </div>

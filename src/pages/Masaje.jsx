@@ -9,7 +9,7 @@ import imgVent from  '../assets/14.jpeg'
 
 export const Masaje = () => {
     return (
-        <div>
+        <div className=' bg-custom2'>
             <section>
                 <div className="container">
                     <div className="row row-cols-1 row-cols-md-2 g-4">
@@ -106,6 +106,13 @@ export const Masaje = () => {
                         </div>
                     </div>
                 </div>
+
+                 
+                <div className="text-center my-4">
+      <a href="https://wa.me/seunumerodetelefono" target="_blank" rel="noopener noreferrer" className="btn btn-success btn-lg">
+        <i className="bi bi-whatsapp me-2"></i> Contáctanos por WhatsApp
+      </a>
+    </div>
             </section>
         </div>
     );

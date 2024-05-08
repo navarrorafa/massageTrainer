@@ -1,30 +1,24 @@
-import  {NavBar} from './components/NavBar'
-// import {NavBar2} from './components/NavBar2'
-import {AppRouter} from "./routes/AppRouter"
-import { IconsContacto } from './components/IconsContacto'
-
-
+import React from 'react';
+import { NavBar } from './components/NavBar';
+import { AppRouter } from './routes/AppRouter';
+import { IconsContacto } from './components/IconsContacto';
 
 function App() {
-
-
   return (
-    <>
-     <header >
-     <NavBar/>
-     </header>
+    <div className="d-flex flex-column min-vh-100">
+      <header className='bg-custom fixed-top'>
+        <NavBar />
+      </header>
 
-     <main >
-     
-      <AppRouter/>
-     </main>
+      <main className="flex-grow-1 py-4 mt-5 mb-5">
+        <AppRouter />
+      </main>
 
-     <footer className='bg-secondary bg-opacity-75'>
-      <IconsContacto/>
-
-     </footer>
-    </>
-  )
+      <footer className='bg-custom bg-opacity-75 fixed-bottom'>
+        <IconsContacto />
+      </footer>
+    </div>
+  );
 }
 
-export default App
+export default App;

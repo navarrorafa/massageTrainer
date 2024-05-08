@@ -28,7 +28,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {\
           "packageLocation": "./",\
           "packageDependencies": [\
-            ["@emailjs/browser", "npm:4.3.3"],\
             ["@fortawesome/fontawesome-free", "npm:6.5.2"],\
             ["@fortawesome/fontawesome-svg-core", "npm:6.5.2"],\
             ["@fortawesome/free-solid-svg-icons", "npm:6.5.2"],\
@@ -385,15 +384,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@babel/helper-string-parser", "npm:7.24.1"],\
             ["@babel/helper-validator-identifier", "npm:7.22.20"],\
             ["to-fast-properties", "npm:2.0.0"]\
-          ],\
-          "linkType": "HARD"\
-        }]\
-      ]],\
-      ["@emailjs/browser", [\
-        ["npm:4.3.3", {\
-          "packageLocation": "./.yarn/cache/@emailjs-browser-npm-4.3.3-caff2e69a4-b9756ac5f2.zip/node_modules/@emailjs/browser/",\
-          "packageDependencies": [\
-            ["@emailjs/browser", "npm:4.3.3"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -4666,7 +4656,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",\
           "packageDependencies": [\
             ["webmassage", "workspace:."],\
-            ["@emailjs/browser", "npm:4.3.3"],\
             ["@fortawesome/fontawesome-free", "npm:6.5.2"],\
             ["@fortawesome/fontawesome-svg-core", "npm:6.5.2"],\
             ["@fortawesome/free-solid-svg-icons", "npm:6.5.2"],\

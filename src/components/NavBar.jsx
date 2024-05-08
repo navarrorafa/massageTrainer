@@ -19,7 +19,7 @@ export const NavBar = () => {
       <div className="d-none d-sm-block">
         <div className="d-flex justify-content-between align-items-end">
           <nav className="navbar navbar-expand-sm navbar-light m-2 w-100">
-            <div>Logo</div>
+            <div>Massage Trainer Ibiza </div>
             <ul className="navbar-nav mb-2 ms-auto">
               <li className="nav-item mx-5">
                 <NavLink
@@ -45,14 +45,7 @@ export const NavBar = () => {
                   Trainer
                 </NavLink>
               </li>
-              <li className="nav-item mx-5">
-                <NavLink
-                  to="/tarifas"
-                  className={({ isActive }) => `nav-link fs-5 ${isActive ? 'text-primary ' : 'text-dark'}`}
-                >
-                  Tarifas
-                </NavLink>
-              </li>
+            
               <li className="nav-item mx-5">
                 <NavLink
                   to="/contacto"
@@ -74,7 +67,6 @@ export const NavBar = () => {
             <NavLink exact to="/" className="nav-link" onClick={closeMenu}>Home</NavLink>
             <NavLink to="/masaje" className="nav-link" onClick={closeMenu}>Masaje</NavLink>
             <NavLink to="/trainer" className="nav-link" onClick={closeMenu}>Trainer</NavLink>
-            <NavLink to="/tarifas" className="nav-link" onClick={closeMenu}>Tarifas</NavLink>
             <NavLink to="/contacto" className="nav-link" onClick={closeMenu}>Contacto</NavLink>
           </Menu>
           {/* Ícone manual do menu hamburguer */}
