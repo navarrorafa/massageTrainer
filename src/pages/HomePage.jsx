@@ -16,6 +16,21 @@ export const HomePage = () => {
     return (
         <div>
 
+<section style={{ 
+                backgroundImage: `url(${homeBg})`, 
+                backgroundSize: 'cover', 
+                backgroundPosition: 'center', 
+                height: '100vh', /* Ajustando a altura para cobrir toda a tela */
+                display: 'flex', 
+                flexDirection: 'column', 
+                justifyContent: 'center', 
+                alignItems: 'center' 
+            }}>
+                <h1 className="text-center" style={{ fontSize: '5.5rem', color: 'white', textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)' }}>Massage Trainer Ibiza</h1>
+                <h3 className="text-center" style={{ fontSize: '3.5rem', color: 'white', textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)' }}>Sergio Yrigyen</h3>
+                <h2 className="text-center" style={{ fontSize: '2rem', color: 'white', textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)' }}>Quiromasajista / Trainer</h2>
+            </section>
+
 <section className='bg-custom2'>
 
     <p className='text-center m-5 fs-2'>
