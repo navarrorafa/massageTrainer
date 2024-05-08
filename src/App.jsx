@@ -14,7 +14,7 @@ function App() {
         <AppRouter />
       </main>
 
-      <footer className='bg-custom bg-opacity-75 mt-auto'>
+      <footer className='bg-custom bg-opacity-75 fixed-bottom'> {/* Adicionando a classe fixed-bottom */}
         <IconsContacto />
         <a href="https://www.linkedin.com/in/rafarnavarro/" target="_blank" rel="noopener noreferrer" className="d-block text-center text-decoration-none text-black">© Rafael Navarro 2024</a>
       </footer>
