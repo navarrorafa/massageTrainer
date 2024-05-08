@@ -33,20 +33,20 @@ export const HomePage = () => {
 
 <section className='bg-custom2'>
 
-    <p className='text-center m-5 fs-2'>
+    <p className='text-center m-5 fs-3'>
         Bienvenido a Massage Trainer Ibiza, soy Sergio Yrigoyen Pérez. Licenciado en actividad física y deporte, desarrolle mi carrera en el mundo del fitness y el entrenamiento físico. Desde hace 30 años me dedico profesionalmente al bienestar y al cuidado del cuerpo.
     </p>
 
-    <p className='text-center m-5 fs-2'>
+    <p className='text-center m-5 fs-3'>
         En el año 2008 comencé a desarrollarme como masajista hasta crear Massage Trainer Ibiza, una plataforma para el bienestar integral, combinando el masaje y la actividad física personalizada.
     </p>
 
-    <p className='text-center m-5 fs-2'>
+    <p className='text-center m-5 fs-3'>
         Massage Trainer Ibiza te ofrece una experiencia de masaje excepcional utilizando diferentes técnicas, que aprendí en mi vasta formación:
     </p>
 
     <div className="text-center m-auto p">
-        <ul className='list-unstyled fs-2'>
+        <ul className='list-unstyled fs-3'>
             <li className="mb-2 text-dark">Masajes Deep tissue</li>
             <li className="mb-2 text-dark">Masaje relajante</li>
             <li className="mb-2 text-dark">Masajes lomi lomi</li>
@@ -56,88 +56,33 @@ export const HomePage = () => {
         </ul>
     </div>
 
-    <p className='text-center m-5 fs-2'>
+    <p className='text-center m-5 fs-3'>
         Trabajamos de manera consciente, brindando acompañamientos integrales para tu bienestar. Es por eso que también ofrecemos:
     </p>
 
     <div className="text-center m-auto p">
-        <ul className='list-unstyled fs-2'>
+        <ul className='list-unstyled fs-3'>
             <li className="mb-2 text-dark">Entrenamiento físico personalizado</li>
             <li className="mb-2 text-dark">Entrenamiento físico acuático (lesiones / adultos mayores)</li>
             <li className="mb-2 text-dark">Clases recreativas acuáticas (adultos mayores y niños)</li>
         </ul>
     </div>
 
-    <p className='text-center m-5 fs-2'>
+    <p className='text-center m-5 fs-3'>
         Te invitamos a descubrir nuestro servicio personalizado y de alta calidad.
     </p>
 
-    <p className='text-center m-5 fs-2'>
-        ¡Bienvenidos a Massage Trainer Ibiza, el refugio de bienestar que transformará su vida!
-    </p>
+    <div className="container text-center mt-5">
+                    <a href="https://wa.me/34687262643" target="_blank" rel="noopener noreferrer" className="btn btn-success btn-lg mb-5">
+                        <i className="bi bi-whatsapp me-2"></i> Contáctanos por WhatsApp
+                    </a>
+                </div>
 
-    <div className="text-center my-4">
-        <a href="https://wa.me/34687262643" target="_blank" rel="noopener noreferrer" className="btn btn-success btn-lg">
-            <i className="bi bi-whatsapp me-2"></i> Contáctanos por WhatsApp
-        </a>
-    </div>
 
 </section >
 
 
 
-            <section className='bg-custom2'>
-
-<p className='text-center m-5 fs-2'>
-    Bienvenido a Massage Trainer Ibiza, soy Sergio Yrigoyen Pérez. Licenciado en actividad física y deporte, desarrolle mi carrera en el mundo del fitness y el entrenamiento físico. Desde hace 30 años me dedico profesionalmente al bienestar y al cuidado del cuerpo.
-</p>
-
-<p className='text-center m-5 fs-2'>
-    En el año 2008 comencé a desarrollarme como masajista hasta crear Massage Trainer Ibiza, una plataforma para el bienestar integral, combinando el masaje y la actividad física personalizada.
-</p>
-
-<p className='text-center m-5 fs-2'>
-    Massage Trainer Ibiza te ofrece una experiencia de masaje excepcional utilizando diferentes técnicas, que aprendí en mi vasta formación:
-</p>
-
-<div className="text-center m-auto p">
-    <ul className='list-unstyled fs-2'>
-        <li className="mb-2">Masajes Deep tissue</li>
-        <li className="mb-2">Masaje relajante</li>
-        <li className="mb-2">Masajes lomi lomi</li>
-        <li className="mb-2">Masaje tailandés</li>
-        <li className="mb-2">Reflexología podal</li>
-        <li className="mb-2">Masajes para embarazadas</li>
-    </ul>
-</div>
-
-<p className='text-center m-5 fs-2'>
-    Trabajamos de manera consciente, brindando acompañamientos integrales para tu bienestar. Es por eso que también ofrecemos:
-</p>
-
-<div className="text-center m-auto p">
-    <ul className='list-unstyled fs-2'>
-        <li className="mb-2">Entrenamiento físico personalizado</li>
-        <li className="mb-2">Entrenamiento físico acuático (lesiones / adultos mayores)</li>
-        <li className="mb-2">Clases recreativas acuáticas (adultos mayores y niños)</li>
-    </ul>
-</div>
-
-<p className='text-center m-5 fs-2'>
-    Te invitamos a descubrir nuestro servicio personalizado y de alta calidad.
-</p>
-
-<p className='text-center m-5 fs-2'>
-    ¡Bienvenidos a Massage Trainer Ibiza, el refugio de bienestar que transformará su vida!
-</p>
-
-<div className="text-center my-4">
-    <a href="https://wa.me/34687262643" target="_blank" rel="noopener noreferrer" className="btn btn-success btn-lg">
-        <i className="bi bi-whatsapp me-2"></i> Contáctanos por WhatsApp
-    </a>
-</div>
-
-</section >
 
             <section className='bg-custom bg-opacity-75'>
                 <div className="container py-5">
